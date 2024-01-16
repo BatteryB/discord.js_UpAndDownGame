@@ -7,3 +7,9 @@
 (Only when BatteryBot is online.)<br>
 
 <a href="https://discord.com/oauth2/authorize?client_id=1178255413641216000&permissions=8&scope=bot" target="_blank"><img src="https://img.shields.io/badge/Invite BatteryBot-512BD4?style=for-the-badge&logo=discord&logoColor=white"/></a>
+
+명령어 / Command<br><br>
+/업다운 명령어:명령어<br>
+/업다운 명령어:시작하기<br>
+/엽다운 명령어:포기하기<br>
+/업다운 정답:(숫자)
