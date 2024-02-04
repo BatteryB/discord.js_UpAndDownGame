@@ -11,15 +11,27 @@ const commands = [
         options: [
             {
                 name: '명령어',
-                description: "업다운 명령어를 확인하려면 이 곳에 '명령어' 를 입력하세요.",
+                description: "업다운게임의 명령어를 실행합니다.",
                 type: 3,
-                require: true
+                required: false,
+                choices: [
+                    {
+                        name: '시작하기',
+                        description: '업다운 게임을 시작합니다.',
+                        value: '시작하기'
+                    },
+                    {
+                        name: '포기하기',
+                        description: '업다운 게임의 정답을 확인하고 포기합니다.',
+                        value: '포기하기'
+                    }
+                ]
             },
             {
                 name: '정답',
                 description: "정답을 맞춰보세요!",
                 type: 10,
-                require: true
+                required: false,
             }
         ],
     },
